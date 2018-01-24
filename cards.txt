@@ -1,0 +1,4 @@
+What is 5 + 5?,10,net
+What is Rachel's favorite animal?,red panda,
+What is Mike's middle name?,nobody knows,not gonna get this one
+What cardboard cutout lives at Turing?,justin bieber,that's a creepy cutout
