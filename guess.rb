@@ -3,17 +3,13 @@
 class Guess
 
   require_relative 'card'
-  attr_accessor :response
+  attr_accessor :response,
+                :card
 
   def initialize (response,card)
     @response = response
     @card = card
-    if @card.answer == @response
-      @correct = true
-    else
-      @correct = false
-    end
-
+    @correct = @card.answer == @response
   end
 
   def get_answer

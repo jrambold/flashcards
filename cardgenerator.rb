@@ -13,6 +13,4 @@ class CardGenerator #reads file with , seperator to make card files in a deck
     end
     @cards = Deck.new(card_adder)
   end
-
-
 end
