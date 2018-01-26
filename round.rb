@@ -33,7 +33,7 @@ class Round
 
   def results #outputs results and each question/answer/response to a text file
     current_time = DateTime.now
-    current_time = current_time.strftime("%Y-%m-%d-%I:%M%P")
+    current_time = current_time.strftime("%Y-%m-%d-%I:%M:%S%P")
     results_file = File.new("results-#{current_time}.txt","w")
     results_file.puts("You had #{@number_correct} correct guesses out of #{@number_attempts} for a score of #{percent_correct}%.")
     guesses_result = @guesses
